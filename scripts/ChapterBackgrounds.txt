@@ -1,0 +1,14 @@
+"chapters"
+{
+	1	"background_gravelpit"
+	2	"background_gravelpit"
+	3	"background_gravelpit"
+	4	"background_gravelpit"
+}
+"BackgroundMaps"
+{
+	1	"background_gravelpit"
+	2	"background_gravelpit"
+	3	"background_gravelpit"
+	4	"background_gravelpit"
+}
