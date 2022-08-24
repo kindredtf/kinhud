@@ -8,6 +8,7 @@
 		"enabled"				"1"
 		"xpos"					"1"
 		"ypos"					"300"
+		"ypos_minmode"					"r100"
 		"wide"					"242"
 		"tall"					"100"
 		"fgcolor"				"255 255 255 255"
