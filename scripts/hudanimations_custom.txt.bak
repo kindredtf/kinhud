@@ -26,12 +26,12 @@ event HitMarker
 
 event HudHealthBonusPulse
 {
-	Animate PlayerStatusHealthBonusImage	Alpha	"255"	linear 0.0 0.2
-	Animate PlayerStatusHealthBonusImage	Alpha	"255"		linear 0.2 0.4
+	Animate PlayerStatusHealthBonusImage	Alpha	"0"	linear 0.0 0.2
+	Animate PlayerStatusHealthBonusImage	Alpha	"0"		linear 0.2 0.4
 	
-	Animate PlayerStatusHealthvalue			FgColor	"Buffed HP"			linear 0.0 0.0
-	Animate PlayerStatusHealthvalueShadow	FgColor	"0 0 0 255"		linear 0.0 0.0
-	Animate PlayerStatusHealthImage		FgColor	"HP"		linear 0.0 0.0
+	Animate PlayerStatusHealthvalue			FgColor	"buffed HP"			linear 0.0 0.0
+	Animate PlayerStatusHealthvalueShadow	FgColor	"15 15 15 255"		linear 0.0 0.0
+	Animate PlayerStatusHealthImage		FgColor	"50 205 50 255"		linear 0.0 0.0
 	Animate TargetIDbuffedHealthBG			Alpha	"255"				linear 0.0 0.3
 	
 	RunEvent HudHealthBonusPulseLoop 0.4
@@ -43,7 +43,7 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulseLoop	0.0
 	
 	Animate PlayerStatusHealthvalue			fgcolor	"HP"				linear 0.0 0.0
-	Animate PlayerStatusHealthvalueShadow	fgcolor	"0 0 0 255"			linear 0.0 0.0
+	Animate PlayerStatusHealthvalueShadow	fgcolor	"15 15 15 255"			linear 0.0 0.0
 	Animate TournamentSpectatorHealth		FgColor	"255 255 255 255"	linear 0.0 0.0
 	Animate TargetIDbuffedHealthBG			Alpha	"0"					linear 0.0 0.0
 }
@@ -179,13 +179,13 @@ event TeamStatus_PlayerDead
 {
 SetVisible DeathPanel 1 0
 Animate DeathPanel ypos 0 Accel 0 0.2
-Animate respawntime ypos -5 Accel 0 0.2
+Animate respawntime ypos 0 Accel 0 0.2
 }
 
 event TeamStatus_PlayerAlive
 {
 Animate DeathPanel ypos 0 Accel 0 0.2
-Animate respawntime ypos -5 Accel 0 0.2
+Animate respawntime ypos 0 Accel 0 0.2
 SetVisible DeathPanel 0 0.2
 }
 

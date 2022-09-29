@@ -11,8 +11,8 @@
 		"PositiveColor"			"Heal Numbers"
 		"NegativeColor"			"Damage Numbers"
 		"delta_lifetime"		"2"
-		"delta_item_font"		"surface18shadow"
-		"delta_item_font_big"	"surface18shadow"
+		"delta_item_font"		"surface18outline"
+		"delta_item_font_big"	"surface18outline"
 		
 	}
 	
@@ -20,12 +20,12 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"DamageAccountValue"
-		"xpos"					"c-136"
-		"ypos"					"r105"
+		"xpos"					"c-38"
+		"ypos"					"r170"
 		"zpos"					"2"
 		"wide"					"74"
 		"tall"					"26"
-		"visible"				"0"
+		"visible"				"1"
 		"enabled"				"1"
 		"labelText"				"%metal%"
 		"textAlignment"			"center"
@@ -37,16 +37,16 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"DamageAccountValueBG"
-		"xpos"					"c-136"
-		"ypos"					"r105"
+		"xpos"					"c-38"
+		"ypos"					"r170"
 		"zpos"					"1"
 		"wide"					"75"
 		"tall"					"27"
-		"visible"				"0"
+		"visible"				"1"
 		"enabled"				"1"
 		"labelText"				"%metal%"
 		"textAlignment"			"center"
-		"fgcolor"				"15 15 15 255"
+		"fgcolor"				"0 0 0 255"
 		"font"					"surface15"
 	}
 }
