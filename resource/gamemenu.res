@@ -43,6 +43,12 @@
 		"label"			"SPEC MODE"
 		"command"		"engine cl_hud_minmode 1"
 	}
+		"pass_Arena2"
+	{
+		"label"			"ARENA2"
+		"command"		"engine asd1"
+		"OnlyAtMenu"	"1"
+	}
 		"MenuBGingame"
 	{
 		"label"			""

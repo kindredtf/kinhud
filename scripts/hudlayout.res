@@ -21,10 +21,8 @@
 		"fieldName"					"HudWeaponAmmo"
 		"visible"					"1"
 		"enabled"					"1"
-		"xpos"						"c-40"
-		"xpos_minmode"				"c-40"
-		"ypos"						"r169"
-		"ypos_minmode"				"r169"
+		"xpos"						"c-20"
+		"ypos"						"r148"
 		"wide"						"250"
 		"tall"						"65"
 	}
@@ -46,9 +44,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"xpos"						"c-50"
-		"xpos_minmode"				"c-50"
 		"ypos"						"r52"
-		"ypos_minmode"				"r52"
 		"wide"						"100"
 		"tall"						"50"
 		"MeterFG"					"White"
@@ -262,7 +258,7 @@
 		"IconScale"					"0.35"
 		"LineHeight"				"12"
 		"LineSpacing"				"1"
-		"CornerRadius"				"2"
+		"CornerRadius"				"1"
 		"RightJustify"				"1"
 		
 		"TextFont"					"surface10"
@@ -273,7 +269,7 @@
 		"LocalPlayerColor"			"HUDBlack"
 
 		"BaseBackgroundColor"		"46 43 42 255"
-		"LocalBackgroundColor"		"200 200 190 255"
+		"LocalBackgroundColor"		"200 197 180 255"
 	}
 	
 	HudSpellMenu

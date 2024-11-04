@@ -91,7 +91,7 @@
 		"labelText"					"%Health%"
 		"textAlignment"				"center"
 		"font"						"surface26"
-		"fgcolor"					"HP"
+		"fgcolor"					"Ammo in Clip"
 	}
 	
 	"PlayerStatusHealthValueShadow"

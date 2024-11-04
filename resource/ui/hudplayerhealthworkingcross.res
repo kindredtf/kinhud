@@ -25,8 +25,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"HealthAnchor"
-		"xpos"										"c-100"
-		"ypos"										"c107"
+		"xpos"										"c-105"
+		"ypos"										"c97"
 		"zpos"										"0"
 		"wide"										"2"
 		"tall"										"64"
@@ -42,13 +42,13 @@
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"PlayerStatusHealthImageBG"
-		"xpos"										"9999"
+		"xpos"										"-8"
 		"ypos"										"-8"
 		"zpos"										"3"
 		"wide"										"48"
 		"tall"										"48"
-		"visible"									"0"
-		"enabled"									"0"
+		"visible"									"1"
+		"enabled"									"1"
 		"image"										"replay/thumbnails/health_bg"
 		"scaleImage"								"1"
 
@@ -66,8 +66,8 @@
 		"zpos"										"3"
 		"wide"										"96"
 		"tall"										"96"
-		"visible"									"0"
-		"enabled"									"0"
+		"visible"									"1"
+		"enabled"									"1"
 		"image"										"replay/thumbnails/health_border_red"
 		"teambg_2"									"replay/thumbnails/health_border_red"
 		"teambg_3"									"replay/thumbnails/health_border_blu"
@@ -85,8 +85,8 @@
 		"zpos"										"4"
 		"wide"										"44"
 		"tall"										"44"
-		"visible"									"0"
-		"enabled"									"0"
+		"visible"									"1"
+		"enabled"									"1"
 		"scaleImage"								"1"
 
 		"pin_to_sibling"							"PlayerStatusHealthImageBG"
@@ -96,12 +96,12 @@
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"PlayerStatusHealthBonusImage"
-		"xpos"										"c-142"
-		"ypos"										"c105"
+		"xpos"										"c-136"
+		"ypos"										"c106"
 		"zpos"										"-4"
 		"wide"										"46"
 		"tall"										"46"
-		"visible"									"1"
+		"visible"									"0"
 		"enabled"									"1"
 		"image"										"../hud/health_over_bg"
 		"scaleImage"								"1"
@@ -112,7 +112,7 @@
 	// HEALTH VALUE & SHADOW
 	//==================================================================================================================================================
 
-	"PlayerStatusHealthValue2"
+	"PlayerStatusHealthValue"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"PlayerStatusHealthValue"
@@ -121,8 +121,8 @@
 		"zpos"										"5"
 		"wide"										"60"
 		"tall"										"40"
-		"visible"									"0"
-		"enabled"									"0"
+		"visible"									"1"
+		"enabled"									"1"
 		"labelText"									"%Health%"
 		"textAlignment"								"center"
 		"font"										"surface20"
@@ -141,56 +141,14 @@
 		"zpos"										"5"
 		"wide"										"60"
 		"tall"										"40"
-		"visible"									"0"
-		"enabled"									"0"
+		"visible"									"1"
+		"enabled"									"1"
 		"labelText"									"%Health%"
 		"textAlignment"								"center"
 		"font"										"surface20"
 		"fgcolor"									"0 0 0 255"
 
 		"pin_to_sibling"							"PlayerStatusHealthValue"
-	}
-	
-		"PlayerStatusHealthValue"
-	{
-		"ControlName"				"CExLabel"
-		"fieldName"					"PlayerStatusHealthValue"
-		"xpos"						"-20"
-		"ypos"						"0"
-		"zpos"						"5"
-		"wide"						"100"
-		"tall"						"42"
-		"visible"					"1"
-		"enabled"					"1"
-		"labelText"					"%Health%"
-		"textAlignment"				"center"
-		"font"						"surface36"
-		"fgcolor"					"Ammo in Clip"
-		
-				"pin_to_sibling"							"HealthAnchor"
-		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
-	}
-	
-	"PlayerStatusHealthValueShadow"
-	{
-		"ControlName"				"CExLabel"
-		"fieldName"					"PlayerStatusHealthValueShadow"
-		"xpos"						"-19"
-		"ypos"						"-1"
-		"zpos"						"5"
-		"wide"						"100"
-		"tall"						"42"
-		"visible"					"1"
-		"enabled"					"1"
-		"labelText"					"%Health%"
-		"textAlignment"				"center"
-		"font"						"surface36"
-		"fgcolor"					"0 0 0 255"
-		
-				"pin_to_sibling"							"HealthAnchor"
-		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 	}
 
 	//==================================================================================================================================================
@@ -203,7 +161,7 @@
 		"ControlName"				         		"EditablePanel"
 		"fieldName"				         			"PlayerStatusAnchor"
 		"xpos"					         			"-26"
-		"ypos"					         			"0"
+		"ypos"					         			"-25"
 		"wide"					         			"0"
 		"tall"					         			"80"
 		"visible"				         			"1"
