@@ -1,5 +1,7 @@
-Only tested on 16:9 at 1920x1080.
-Anything else will look terrible, you have been warned.
+# KinHUD 2025 - Made for PASS Time
 
-Screenshots
-https://imgur.com/a/pQX8V5v
+## SETUP
+The buttons on the main menu will load up maps and execute a practice config (included with the HUD).
+Please check the `cfg` folder and look at `pt.cfg` - it contains some binds that you may want to change.
+
+## MINMODE IS BROKEN

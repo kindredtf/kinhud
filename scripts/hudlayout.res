@@ -4,6 +4,7 @@
 "Resource/HudLayout.res"
 {
 
+
 	HudScopeCharge
 	{
 		"fieldName" "HudScopeCharge"
@@ -70,7 +71,6 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"xpos"						"c-50"
-		"xpos_minmode"				"c-94"
 		"ypos"						"c125"
 		"ypos_minmode"				"c125"
 		"zpos"						"1"

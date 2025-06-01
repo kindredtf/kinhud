@@ -60,7 +60,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CountTextShadow"
-		"font"				"surfaceNumbers28"
+		"font"				"surface28"
 		"labelText"			"%counttext%"
 		"textAlignment"		"west"
 		"xpos"				"46"
@@ -74,7 +74,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CountText"
-		"font"				"surfaceNumbers28"
+		"font"				"surface28"
 		"labelText"			"%counttext%"
 		"textAlignment"		"west"
 		"xpos"				"46"

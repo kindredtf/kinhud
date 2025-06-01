@@ -199,12 +199,16 @@
 	{
 		"fieldName"		"RoundCounter"
 		"xpos"			"cs-0.5"
-		"ypos"			"-2"
+		"xpos_minmode"			"-23"
+		"ypos_minmode"			"60"
+		"ypos"			"22"
 		"zpos"			"1"		
 		"wide"			"300"
-		"tall"			"0"
+		"tall"			"60"
+		"visible_minmode"		"1"
 		"visible"		"1"
 		"enabled"		"1"
+		"enabled_minmode"		"1"
 	}	
 
 	"BGFrame"
@@ -277,9 +281,12 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
+		"xpos_minmode"				"c-353"
 		"xpos"				"c-55"
-		"ypos"				"10"	[$WIN32]
+		"ypos_minmode"				"22"
+		"ypos"				"10"
 		"zpos"				"2"
+		"wide_minmode"				"250"
 		"wide"				"110"
 		"tall"				"150"
 		"visible"			"1"
@@ -290,30 +297,19 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"Zesty14"
 
-		if_match
-		{
-			"xpos"					"cs-0.5"
-			"wide"					"110"
-			"ypos_minmode"			"0"
-			"delta_item_x"			"35"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
-			"PositiveColor"			"0 255 0 255"
-			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"1.5"
-			"delta_item_font"		"Zesty14"
-		}
-		
+
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"surface10shadow"
+			"font" 					"surface10shadow"
+			"font_minmode"			"surface18shadow"
 			"fgcolor"		"255 255 255 255"
-			"xpos"			"0"
+			"xpos_minmode"			"0"
+			"xpos" "0"
 			"ypos"			"3"
+			"ypos_minmode" "16"
 			"zpos"			"3"
 			"wide"			"110"
 			"tall"			"30"
@@ -674,7 +670,7 @@
 			"tall"			"36"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"border"		"TFFatLineBorderBlueBGOpaque"
 		}

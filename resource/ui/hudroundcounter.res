@@ -7,15 +7,18 @@
 		"ypos"			"-2"
 		"zpos"			"2"		
 		"wide"			"300"
-		"tall"			"25"
+		"tall"			"100"
 		"visible"		"1"
+		"visible_minmode"		"1"
 		"enabled"		"1"
+		"enabled_minmode"		"1"
 		"proportionaltoparent"	"1"
 
 		"starting_width"	"20"
-		"width_per_round"	"24"
-		"indicator_start_offset"	"4"
-		"indicator_max_wide"	"30"
+		"starting_width_minmode"	"20"
+		"width_per_round"	"20"
+		"indicator_start_offset"	"15"
+		"indicator_max_wide"	"20"
 
 		"RoundIndicatorPanel_kv"
 		{
@@ -62,7 +65,7 @@
 		
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
-		
+			"visible" "0"
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
 	}
@@ -81,7 +84,7 @@
 		
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
-		
+			"visible" "0"
 		"draw_corner_width"		"0"
 		"draw_corner_height"	"0"
 	}
@@ -97,7 +100,7 @@
 		"tall"					"26"
 		"image"					"../HUD/color_panel_brown"
 		"proportionaltoparent"	"1"
-		
+		"visible" "0"
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
 		

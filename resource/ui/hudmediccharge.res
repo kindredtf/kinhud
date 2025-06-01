@@ -146,7 +146,7 @@
 		"dulltext"					"0"
 		"brighttext"				"0"
 		"fgcolor"					"255 255 255 255"
-		"font"						"surfaceNumbers16"
+		"font"						"surface16"
 	}
 	
 	"ChargeLabelCenterShadow"
@@ -168,7 +168,7 @@
 		"dulltext"					"0"
 		"brighttext"				"0"
 		"fgcolor"					"0 0 0 255"
-		"font"						"surfaceNumbers16"
+		"font"						"surface16"
 	}
 	
 	"HealthClusterIcon"

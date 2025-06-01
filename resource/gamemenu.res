@@ -35,19 +35,13 @@
 	}
 	"PlayMode"
 	{
-		"label"			"PLAY MODE"
+		"label"			"MINMODE 0"
 		"command"		"engine cl_hud_minmode 0"
 	}
 	"Scoreboard"
 	{
-		"label"			"SPEC MODE"
+		"label"			"MINMODE 1"
 		"command"		"engine cl_hud_minmode 1"
-	}
-		"pass_Arena2"
-	{
-		"label"			"ARENA2"
-		"command"		"engine asd1"
-		"OnlyAtMenu"	"1"
 	}
 		"MenuBGingame"
 	{
@@ -78,6 +72,37 @@
 		"label"			"ITEMS"
 		"command"		"engine open_charinfo"
 		"subimage"		"glyph_items"
+	}
+
+	"NA1"
+	{
+		"label"			"NA - A PUG"
+		"command"		"engine kcn1"
+		"subimage"		"na"
+	}
+	"NA2"
+	{
+		"label"			"NA - B PUG"
+		"command"		"engine kcn2"
+		"subimage"		"na"
+	}
+	"EU1"
+	{
+		"label"			"EU - A PUG"
+		"command"		"engine kce1"
+		"subimage"		"de"
+	}
+	"EU2"
+	{
+		"label"			"EU - B PUG"
+		"command"		"engine kce2"
+		"subimage"		"de"
+	}
+	"EU3"
+	{
+		"label"			"EU - C PUG"
+		"command"		"engine kce3"
+		"subimage"		"de"
 	}
 
 	// These buttons are only shown while in-game

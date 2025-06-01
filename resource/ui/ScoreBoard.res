@@ -14,7 +14,7 @@
 		"image"			"replay/thumbnails/dot"
 		"scaleImage"	"1"
 	}
-	
+
 	"scores"
 	{
 		"ControlName"	        					"CTFClientScoreBoardDialog"
@@ -29,7 +29,7 @@
 		"enabled"		           				 	"1"
 		"tabPosition"								"0"
 		"medal_width"								"0"
-		"avatar_width"								"55"
+		"avatar_width"								"28"
 		"spacer"									"0"
 		"name_width"								"150"
 		"nemesis_width"								"14"
