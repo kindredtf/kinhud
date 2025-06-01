@@ -5,3 +5,8 @@ The buttons on the main menu will load up maps and execute a practice config (in
 Please check the `cfg` folder and look at `pt.cfg` - it contains some binds that you may want to change.
 
 ## MINMODE IS BROKEN
+
+### Screenshots
+![alt text](screenshots/screenshot1.png)
+![alt text](screenshots/screenshot2.png)
+![alt text](screenshots/screenshot3.png)
